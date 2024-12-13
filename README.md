@@ -25,7 +25,7 @@ A static version of the index page mock is available for preview: https://kwc-co
    - **ASP.NET and Web Development** workload.
    - **Blazor WebAssembly App** support.<br>
 ### Steps to Run the Application locally
-1. Clone the repository: git clone https://github.com/celiakamana/kwc-webapp.git <br>
+1. Clone the repository: git clone https://github.com/Celiakamana/Kwc-ConsultancyProject <br>
 2. Open the solution file:
    - Navigate to the `kwc/` folder and open `kwc.sln` in Visual Studio. <br>
 3. Build<br>
