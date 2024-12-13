@@ -1,0 +1,160 @@
+﻿@inherits LayoutComponentBase
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+
+
+<div class="layout">
+    <!-- Top Navigation -->
+    <div class="top-nav">
+       
+        <!-- Logo -->
+        <div class="logo">
+            <img src="css/logoImage.png" alt="Logo" class="logo-image">
+            <span class="logo-text">KWC</span>
+        </div>
+        <!-- Navigation Links -->
+        <nav class="nav-links">
+            <a href="#">Browse Menu</a>
+            <a href="#">Catering</a>
+            <a href="#">Blogs & Recipes</a>
+        </nav>
+        <!-- Phone Icon -->
+        <div class="nav-iconPhone">
+            <a href="#" class="icon phone-icon" title="Call Us">
+                <i class="fas fa-phone"></i>
+            </a>
+        </div>
+        <!--cart icon-->
+        <div class="nav-iconCart">
+            <a href="#" class="icon cart-icon" title="View Cart">
+                <i class="fas fa-shopping-bag"></i>
+            </a>
+        </div>
+        <!-- order now button-->
+        <div>
+            <button class="order-now">Order Now</button>
+        </div>
+        <!-- Burger Menu for Small Screens -->
+            <div class="burger-menu" onclick="toggleMenu()">
+                <div class="burger-lines"></div>
+                <div class="burger-lines"></div>
+                <div class="burger-lines"></div>
+            </div>
+          <div class="burger-menu-overlay" id="menuOverlay" onclick="toggleMenu()">
+
+           </div>
+
+    </div>
+
+    <!-- Page Content -->
+    <div class="body-content">
+        @Body
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-links">
+            <div class="footer-column">
+                <h4>Eatery Information</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Hours of operation</a></li>
+                    <li><a href="#">Delivery Policy</a></li>
+                    <li><a href="#">Question?</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Additional Information</h4>
+                <ul>
+                    <li><a href="#">Food Compliance</a></li>
+                    <li><a href="#">Investors</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-social">
+            <h4>Follow us:</h4>
+            <a href="#" class="social-icon facebook-icon" title="Facebook"></a>
+            <a href="#" class="social-icon twitter-icon" title="Twitter"></a>
+            <a href="#" class="social-icon instagram-icon" title="Instagram"></a>
+        </div>
+        <p>2024 KWC ALL RIGHTS RESERVED</p>
+    </footer>
+</div>
+
+<script>
+
+    // JavaScript to rotate the images on the index page
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+
+    function rotateImages() {
+        slides[currentIndex].style.opacity = 0; // Hide current slide
+        currentIndex = (currentIndex + 1) % slides.length; // Move to the next slide
+        slides[currentIndex].style.opacity = 1; // Show next slide
+    }
+
+    setInterval(rotateImages, 6000); // Rotating every 6 seconds
+
+        // JavaScript for Menu Toggle
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+        const overlay = document.querySelector('.burger-menu-overlay');
+
+        // Clone the phone and cart icons along with their titles and append them to nav-links when burger menu opens
+        if (!navLinks.querySelector('.phone-icon-link')) {
+                const clonedPhoneIcon = document.createElement('a');
+        clonedPhoneIcon.classList.add('phone-icon-link');
+        clonedPhoneIcon.href = "#";
+        clonedPhoneIcon.innerHTML = '<i class="fas fa-phone"></i> Call Us';
+        clonedPhoneIcon.style.padding = '0.5rem 1rem';
+        navLinks.appendChild(clonedPhoneIcon);
+            }
+
+        if (!navLinks.querySelector('.cart-icon-link')) {
+                const clonedCartIcon = document.createElement('a');
+        clonedCartIcon.classList.add('cart-icon-link');
+        clonedCartIcon.href = "#";
+        clonedCartIcon.innerHTML = '<i class="fas fa-shopping-bag"></i> View Cart';
+        clonedCartIcon.style.padding = '0.5rem 1rem';
+        navLinks.appendChild(clonedCartIcon);
+            }
+
+        navLinks.classList.toggle('open'); // Toggle the 'open' class on the nav links
+        overlay.classList.toggle('visible'); // Show or hide the overlay for closing on clicking outside
+        }
+
+        // JavaScript for closing the burger menu when clicking elsewhere
+        document.addEventListener('click', function (event) {
+            const burgerMenu = document.querySelector('.burger-menu');
+        const navLinks = document.querySelector('.nav-links');
+        const overlay = document.querySelector('.burger-menu-overlay');
+
+        if (!burgerMenu.contains(event.target) && !navLinks.contains(event.target) && !overlay.contains(event.target)) {
+            navLinks.classList.remove('open');
+        overlay.classList.remove('visible');
+            }
+        });
+
+        // JavaScript for handling screen resizing
+        window.addEventListener('resize', function () {
+            const navLinks = document.querySelector('.nav-links');
+        const overlay = document.querySelector('.burger-menu-overlay');
+        const burgerMenu = document.querySelector('.burger-menu');
+
+            if (window.innerWidth > 768) {
+            // If the screen size is greater than 768px, reset the burger menu and overlay
+            navLinks.classList.remove('open');
+        overlay.classList.remove('visible');
+        // Remove cloned icons from nav-links
+        const clonedPhoneIcon = document.querySelector('.phone-icon-link');
+        const clonedCartIcon = document.querySelector('.cart-icon-link');
+        if (clonedPhoneIcon) clonedPhoneIcon.remove();
+        if (clonedCartIcon) clonedCartIcon.remove();
+            } else {
+                // Ensure burger menu is shown correctly in small screens
+                if (burgerMenu && burgerMenu.classList.contains('open')) {
+            navLinks.classList.add('open');
+        overlay.classList.add('visible');
+                }
+            }
+        });
+</script>

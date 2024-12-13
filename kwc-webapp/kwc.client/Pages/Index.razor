@@ -1,0 +1,28 @@
+﻿@page "/"
+@layout MainLayout
+@using Microsoft.AspNetCore.Components.Web
+
+<PageTitle>index</PageTitle>
+
+<!-- Main Container -->
+<div class="main-container">
+    <!-- Background Images Rotator Section -->
+    <div class="background-slider" id="slider">
+        <div class="slide" style="background-image: url('/css/indexImage1.jpg'); opacity: 1;"></div>
+        <div class="slide" style="background-image: url('/css/indexImage2.jpg'); opacity: 0;"></div>
+        <div class="slide" style="background-image: url('/css/indexImage3.jpg'); opacity: 0;"></div>
+        <div class="slide" style="background-image: url('/css/indexImage4.jpg'); opacity: 0;"></div>
+        <h1 class="Eatery-name">KIGALI WAFFLE CUISINE</h1>
+    </div>
+    <!-- Give Us a Call Button -->
+    <div class="call-button-area">
+        <button class="call-button">Give Us A Call</button>
+    </div>
+
+    <!-- Scroll Section with Fixed Background -->
+    <div class="fixed-background" style="background-image: url('/css/indexImage2.jpg');">
+        <div class="textbox">
+            <p>Welcome to KWC. We are dedicated to providing the best culinary experience. <a href="#" class="highlight">Learn more</a></p>
+        </div>
+    </div>
+</div>

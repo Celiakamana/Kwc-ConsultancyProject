@@ -1,0 +1,11 @@
+C:\Users\kaman\source\repos\kwc.shared\bin\Debug\net8.0\kwc.shared.deps.json
+C:\Users\kaman\source\repos\kwc.shared\bin\Debug\net8.0\kwc.shared.dll
+C:\Users\kaman\source\repos\kwc.shared\bin\Debug\net8.0\kwc.shared.pdb
+C:\Users\kaman\source\repos\kwc.shared\obj\Debug\net8.0\kwc.shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaman\source\repos\kwc.shared\obj\Debug\net8.0\kwc.shared.AssemblyInfoInputs.cache
+C:\Users\kaman\source\repos\kwc.shared\obj\Debug\net8.0\kwc.shared.AssemblyInfo.cs
+C:\Users\kaman\source\repos\kwc.shared\obj\Debug\net8.0\kwc.shared.csproj.CoreCompileInputs.cache
+C:\Users\kaman\source\repos\kwc.shared\obj\Debug\net8.0\kwc.shared.dll
+C:\Users\kaman\source\repos\kwc.shared\obj\Debug\net8.0\refint\kwc.shared.dll
+C:\Users\kaman\source\repos\kwc.shared\obj\Debug\net8.0\kwc.shared.pdb
+C:\Users\kaman\source\repos\kwc.shared\obj\Debug\net8.0\ref\kwc.shared.dll

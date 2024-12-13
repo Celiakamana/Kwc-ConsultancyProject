@@ -1,0 +1,6 @@
+@kwc.server_HostAddress = http://localhost:5119
+
+GET {{kwc.server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

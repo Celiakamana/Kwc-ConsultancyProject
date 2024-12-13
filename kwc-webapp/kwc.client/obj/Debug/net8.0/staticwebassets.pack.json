@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kaman\\source\\repos\\kwc.client\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\kaman\\source\\repos\\kwc.client\\obj\\Debug\\net8.0\\compressed\\gbjzz44ca0.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\kaman\\source\\repos\\kwc.client\\wwwroot\\css\\IndexImage1.jpg",
+      "PackagePath": "staticwebassets\\css\\IndexImage1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kaman\\source\\repos\\kwc.client\\wwwroot\\css\\IndexImage4.jpg",
+      "PackagePath": "staticwebassets\\css\\IndexImage4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kaman\\source\\repos\\kwc.client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\kaman\\source\\repos\\kwc.client\\wwwroot\\css\\indexImage2.jpg",
+      "PackagePath": "staticwebassets\\css\\indexImage2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kaman\\source\\repos\\kwc.client\\wwwroot\\css\\indexImage3.jpg",
+      "PackagePath": "staticwebassets\\css\\indexImage3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kaman\\source\\repos\\kwc.client\\wwwroot\\css\\logoImage.png",
+      "PackagePath": "staticwebassets\\css\\logoImage.png"
+    },
+    {
+      "Id": "C:\\Users\\kaman\\source\\repos\\kwc.client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.kwc.client.props",
+      "PackagePath": "build\\kwc.client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.kwc.client.props",
+      "PackagePath": "buildMultiTargeting\\kwc.client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.kwc.client.props",
+      "PackagePath": "buildTransitive\\kwc.client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.kwc.client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
