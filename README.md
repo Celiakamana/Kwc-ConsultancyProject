@@ -1,5 +1,5 @@
 # Kigali Waffle Cuisine (KWC)-Consultancy Project
-Welcome to the repository for **Kigali Waffle Cuisine (KWC)**, a project aimed at expanding the online presence of a local food eatery in Kigali,Rw. <br>
+Welcome! For this project I was tasked with providing satkeholders with different recommendations on how to expand the online presence of a local food eatery in Kigali,Rw. <br>
 This repository contains consulataion daocuments and design wireframe for a web app along with the initial configuration and development stages of a Blazor WebAssembly-based web application<br>
 ## Repository Overview
 This repository includes the following components:
