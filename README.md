@@ -17,7 +17,7 @@ Throughout  this project, the following technologies and tools were utilized:<br
 - **Visio**: For creating wireframes and design documents.<br>
 - **GitHub Pages**: For hosting the live demo.<br>
 ## Live Demo
-A static version of the index page mock is available for preview: https://kwc-co.github.io/webApp-Prototype/ <br>
+A static version of the index page mock of one of the solutions I recommended is available for preview: https://kwc-co.github.io/webApp-Prototype/ <br>
 ## Getting Started
 ### Prerequisites
 1. [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) <br>
