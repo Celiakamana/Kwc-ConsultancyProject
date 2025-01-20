@@ -38,6 +38,8 @@ When the client decides to invest in webapp, they can resume by adding additiona
 ## Contact
 For questions or feedback:
 - **Email**: kamanacelia@gmail.com <br>
+- **Client's contact(Github)**:https://github.com/kwc-co  <br>
 - **Client's contact (Instagram)**:https://www.instagram.com/kigali_waffle_cuisine_e/ <br>
+
 ## License
 This project is licensed under the MIT LICENSE.
